@@ -45,7 +45,7 @@ const Login = () => {
     }
   };
 
-  const signUpLogin = async ({ request }) => {
+  const signUpLogin = () => {
     signUpLoginWithGoogle()
       .then((user) => {
         dispatch(loginUser(user.user));
