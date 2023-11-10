@@ -1,4 +1,4 @@
-import { addItem } from "../redux/features/CartSlice";
+import { addItem } from "../redux/features/cartSlice";
 import { useDispatch } from "react-redux";
 import { useLoaderData } from "react-router-dom";
 import { formatPrice, customFetch } from "../utils/index";
