@@ -5,7 +5,7 @@ const links = [
   { id: 4, url: "cart", text: "cart" },
 ];
 import { NavLink } from "react-router-dom";
-const NavLinks = () => {
+export default function NavLinks(){
   return (
     <>
       {links.map((link) => {
@@ -20,5 +20,5 @@ const NavLinks = () => {
       })}
     </>
   );
-};
-export default NavLinks;
+}
+
